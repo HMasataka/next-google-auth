@@ -1,0 +1,23 @@
+:root {
+  --white: #ffffff;
+  --gray: #ecefef;
+  --black: #222222;
+  --font-color: #053e57;
+  --thin-font-color: #94a4a4;
+  --hr-color: #dbe1e1;
+  --accent: #ff971e;
+
+  --body: 14px;
+  --small-text: 12px;
+  --input-font-size: 16px;
+  --heading1: 20px;
+  --heading2: 18px;
+  --heading3: 16px;
+
+  --space-xs: clamp(1.25rem, 1rem + 0.98vw, 1.875rem);
+  --space-sm: calc(var(--space-xs) * 1.5);
+  --space-md: calc(var(--space-xs) * 2);
+  --space-lg: calc(var(--space-xs) * 3);
+  --space-xl: calc(var(--space-xs) * 4);
+  --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem);
+}
